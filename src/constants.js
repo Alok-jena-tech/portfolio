@@ -32,7 +32,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 // import postgreLogo from './assets/tech_logo/postgre.png';
 // import csharpLogo from './assets/tech_logo/csharp.png';
-import docker from "./assets/tech_logo/docker.png";
+import docker from "./assets/tech_logo/Docker.png";
 import Render from "./assets/tech_logo/render.png";
 
 // Experience Section Logo's
