@@ -1,0 +1,79 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @keyframes floatname {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /* @keyframes floatDots {
+    0%   { transform: translateY(0) translateX(0); }
+    50%  { transform: translateY(-20px) translateX(10px); }
+    100% { transform: translateY(0) translateX(0); }
+  } */
+  @keyframes veniceFlow {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    25% {
+      transform: translate(20px, -15px);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translate(40px, 0);
+      opacity: 0;
+    }
+    75% {
+      transform: translate(20px, 15px);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+
+  .animate-floatname {
+    animation: floatname 5s ease-in-out infinite;
+  }
+  /* .animate-floatDots {
+    animation: floatDots var(--anim-duration, 6s) ease-in-out infinite;
+  } */
+
+  .animate-veniceFlow {
+    animation: veniceFlow var(--anim-duration, 10s) ease-in-out infinite;
+  }
+  .glow-dot {
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8),
+      0 0 12px rgba(173, 216, 230, 0.6);
+  }
+
+  .clip-path-custom {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+  }
+  .clip-path-custom-2 {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+  }
+  .clip-path-custom-3 {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+  }
+}
