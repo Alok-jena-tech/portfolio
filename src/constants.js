@@ -214,7 +214,7 @@ export const projects = [
     id: 0,
     title: "Learning Management System.",
     description:
-      "A powerful and user-friendly React.js application designed to facilitate online learning and course management. Instructors can create and manage courses, while students can enroll, access course materials, and track their progress. The intuitive interface ensures a seamless experience for both educators and learners.",
+      " (credentials for Admin side:Email:-alokjena3896@gmail.com ,Password:alokjena) A powerful and user-friendly React.js application designed to facilitate online learning and course management. Instructors can create and manage courses, while students can enroll, access course materials, and track their progress. The intuitive interface ensures a seamless experience for both educators and learners. ",
     image: LMS,
     tags: [
       "HTML",
